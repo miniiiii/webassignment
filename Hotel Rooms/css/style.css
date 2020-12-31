@@ -1,0 +1,159 @@
+:root{
+    --persian-red: #ce3232;
+    --dark: #363636;
+    --grey: #bfbdbd;
+    --lightGrey: #f9f9f9;
+    --transition: all 0.5s ease;
+    --Poppins: 'Poppins', sans-serif;
+    --Mont: 'Montserrat', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--Mont);
+}
+
+/* Utilities */
+a{
+    color: var(--dark);
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+button{
+    font-family: inherit;
+    outline: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 1.2rem 0;
+}
+.btn{
+    background: var(--persian-red);
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 0.95rem;
+    padding: 0.7rem;
+    display: block;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.btn:hover{
+    background: var(--dark);
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+.section-py{
+    padding: 5rem 0;
+}
+.para-text{
+    color: var(--dark);
+    line-height: 1.7;
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+/* Room */
+.Room{
+    background: var(--lightGrey);
+}
+.Room .title{
+    text-align: center;
+}
+.Room-wrapper{
+    margin: 2rem 0;
+}
+.Room-item-img{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Room-item-img img{
+    transition: var(--transition);
+}
+.Room-item-img img:hover{
+    transform: scale(1.2);
+}
+.Room-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.6s ease-in-out 0.3s;
+}
+.Room-overlay p{
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 70%;
+    text-align: center;
+    line-height: 1.7;
+}
+.Room-icons{
+    display: flex;
+}
+.Room-icons span{
+    background: var(--dark);
+    margin: 0.5rem;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--lightGrey);
+    transition: var(--transition);
+}
+.Room-icons span:hover{
+    background: var(--persian-red);
+}
+.Room-item-img:hover .chef-overlay{
+    transform: translateY(0);
+}
+.Room-item-footer{
+    text-align: center;
+    padding: 0.8rem;
+}
+.Room-item-footer h2{
+    font-size: 1.4rem;
+    color: var(--dark);
+}
+.Room-item-footer h3{
+    color: var(--grey);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+
+
+/* # Media Queries # */
+
+
+   
+
+    .Room-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5rem;
+    }
+    
+
+
+
+}
