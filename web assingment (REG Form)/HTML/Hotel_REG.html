@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="book">
+        <form class="book-form" action="form.php" method="POST">
+            <div class="form-item">
+                <label for="checkin-date"> Check In Date: </label>
+                <input type="date" id="checkin-date" name="indate">
+            </div>
+            <div class="form-item">
+                <label for="checkout-date"> Check Out Date: </label>
+                <input type="date" id="checkout-date" name="outdate">
+            </div>
+            <div class="form-item">
+                <label for="adult"> Adults:</label>
+                <input type="number" min="" value="" id="adult" name="adult">
+            </div>
+            <div class="form-item">
+                <label for="children"> Children:</label>
+                <input type="number" min="" value="" id="Children" name="child">
+            </div>
+            <div class="form-item">
+                <label for="rooms"> Rooms:</label>
+                <input type="number" min="1" value="" id="rooms" name="room">
+            </div>
+            <div class="form-item">
+                <input type="submit" class="btn" value="Book Now" name="submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
