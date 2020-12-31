@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seaside Hotel | About US</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>Seaside Hotel</h1>
+
+
+        </nav>
+    </header>
+
+    <div class="nav2">
+        <nav class="navtwo">
+            <div class="navthings">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html" id="active">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="rooms.html">ROOMS</a></li>
+                    <li><a href="#">MULTIPLE HOTEL</a></li>
+                    <li><a href="registationform/RegistrationForm.html">REGISTATION</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section id="main">
+
+        <div class="search">
+            <div class="searchbox">
+
+                <h4>Search For The Best Hotel</h4>
+
+                <div class="hotelname">
+                    <h5>Hotel Name</h5>
+                    <input type="text" placeholder="Type A Hotel Name...">
+                    <a href="#">show hotel map</a>
+
+                </div>
+
+                <div class="arivalthing">
+                    <div class="arival">
+                        <h5>Arival</h5>
+                        <input type="number" id="arival" placeholder="11.09.01">
+                    </div>
+
+                    <div class="dep">
+                        <h5>Departure?</h5>
+                        <input type="number" id="arival" placeholder="11.09.01">
+                    </div>
+                </div>
+
+                <div class="iagree">
+                    <input type="checkbox"> I Agree to the terms and conditions <br>
+                </div>
+
+                <div class="last">
+
+                    <div class="date">
+                        <h5>Date</h5>
+                        <select name="date" id="">
+                        <option value="select">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    </div>
+
+                    <div class="people">
+                        <h5>People</h5>
+                        <select name="date" id="">
+                        <option value="select">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+
+                    </div>
+                </div>
+
+                <button id="theboxbtn">Search</button>
+            </div>
+
+        </div>
+        <div class="image">
+
+            <h2>SEA SIDE PEAKHOTEL</h2>
+            <div class="theimg">
+
+            </div>
+
+        </div>
+
+
+        <div class="form">
+
+            <div class="goform">
+                <h2>LOGIN</h2>
+                <div class="login">
+                    <table>
+                        <tr id="tow">
+                            <td>
+                                User Name
+                            </td>
+                            <td>
+                                <input type="text" name="username" id="" placeholder="John">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Passoword</td>
+                            <td><input type="password" placeholder="Your Password"></td>
+                        </tr>
+
+                        <tr>
+                            <td><button id="login">Login</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <div class="paragraph">
+
+
+        </div>
+
+
+    </section>
+
+    <footer id="aboutusfooterbug">
+        <div class="topcontent">
+            <div class="info">
+                <h2> Sea Park Hotel</h2>
+                Sea side is established in 1998 by the group of owners. Now it's a leading seven star hotel in south Asia. Most of the foreign & local tourists prefer to spend their holidays in our hotel because of the attractive coast line. <br>We offer
+                the best friendly services for our beloved guests. Spend quality holidays with us.
+            </div>
+
+            <div class="contact">
+                <h2>contact us</h2>
+                <ul>
+                    <li>011-222-3333</li>
+                    <li>SeasideHotel@gmail.com</li>
+                    <li>27rd colombo</li>
+                </ul>
+            </div>
+            <div class="social">
+
+                <ul>
+
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="endnigga">
+
+            <p id="end">
+                <center> @2020</center>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
