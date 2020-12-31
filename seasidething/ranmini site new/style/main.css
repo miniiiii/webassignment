@@ -1,0 +1,774 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    font-family: 'Lobster', cursive;
+    -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background: white;
+}
+
+header li {
+    list-style: none;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: 0%;
+    margin-right: 10%;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+nav {
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.navtwo {
+    width: 100%;
+    font-weight: bold;
+    border-top: 7px solid #cccccc;
+}
+
+.navtwo .navthings {
+    margin-left: 10%;
+}
+
+.navtwo ul {
+    list-style: none;
+}
+
+.navtwo li {
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.navtwo a {
+    border-top: 7px solid #cccccc;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: -60px;
+    padding-top: 30px;
+}
+
+.navtwo ul li a:hover {
+    color: orangered;
+    border-top: 7px solid orangered;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    background-color: #ececec;
+}
+
+.hero {
+    width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("../assests/hroimg.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#active {
+    color: orangered;
+    border-top: 7px solid orangered;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    background-color: #ececec;
+}
+
+#main {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'box1 box2' "box3 box4";
+}
+
+.search {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: box1;
+}
+
+.image {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 30px;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: box2;
+}
+
+.image .theimg {
+    width: 100%;
+    height: 500px;
+    margin-top: 35px;
+    background-image: url("../assests/image2.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image h2 {
+    margin-top: 30px;
+}
+
+.form {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: box3;
+}
+
+.form .goform {
+    margin-top: 10%;
+    margin-bottom: 50%;
+    margin-left: 10%;
+    border: 1px solid black;
+    margin-right: 20%;
+    padding: 60px;
+}
+
+.form .goform .login table tr td input {
+    width: 100%;
+}
+
+.form button {
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.form #login:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+}
+
+.searchbox {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+    background-color: #5a5a5a;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    height: 550px;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+.searchbox h4 {
+    font-size: 25px;
+}
+
+.searchbox #theboxbtn {
+    border: 2px solid white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.searchbox #theboxbtn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+}
+
+.searchbox .hotelname {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.searchbox .hotelname input {
+    width: 100%;
+    border: 1px solid black;
+    padding: 7px;
+    margin-bottom: 6px;
+}
+
+.searchbox .hotelname h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.searchbox .hotelname a {
+    font-size: 12px;
+    color: white;
+}
+
+.searchbox .arivalthing {
+    width: 100%;
+    margin: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+}
+
+.searchbox .arivalthing h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.searchbox .arivalthing input {
+    width: 120%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.searchbox .arivalthing .dep {
+    margin-left: 20%;
+}
+
+.searchbox .last {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 25px;
+}
+
+.searchbox .last h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.searchbox .last .people {
+    margin-left: 20%;
+}
+
+.searchbox .last select {
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.searchbox:hover {
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.paragraph {
+    margin-top: 10%;
+}
+
+.paragraph .mainpara h2 {
+    font-size: 50px;
+}
+
+.paragraph .mainpara p {
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.paragraph .mainpara ul {
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.paragraph .mainpara ul li {
+    list-style: circle;
+    font-size: 20px;
+}
+
+.smallpara {
+    margin-top: 30px;
+    width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.smallpara .mainpara {
+    text-align: center;
+}
+
+.smallpara .mainpara h2 {
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+}
+
+.smallpara .mainpara p {
+    text-align: #cccccc;
+    margin-top: 70px;
+    font-size: 28px;
+}
+
+.images {
+    width: 90%;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.images .one {
+    border: 3px solid black;
+    margin-left: 20px;
+    width: 25%;
+    height: 500px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+}
+
+.images .one img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 200px;
+}
+
+.images .one h2 {
+    font-family: 'Lobster', cursive;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.images .one p {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.images .one button {
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 30%;
+    margin-right: 305;
+}
+
+.images .one button:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.images .two {
+    border: 3px solid black;
+    margin-left: 20px;
+    width: 25%;
+    height: 500px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+    margin-left: 20px;
+    width: 25%;
+    height: 500px;
+}
+
+.images .two img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 200px;
+}
+
+.images .two h2 {
+    font-family: 'Lobster', cursive;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.images .two p {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.images .two button {
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 30%;
+    margin-right: 305;
+}
+
+.images .two button:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.images .three {
+    border: 3px solid black;
+    margin-left: 20px;
+    width: 25%;
+    height: 500px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+    margin-left: 20px;
+    width: 25%;
+    height: 500px;
+}
+
+.images .three img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 200px;
+}
+
+.images .three h2 {
+    font-family: 'Lobster', cursive;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.images .three p {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.images .three button {
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 30%;
+    margin-right: 305;
+}
+
+.images .three button:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.images .four {
+    border: 3px solid black;
+    margin-left: 20px;
+    width: 25%;
+    height: 500px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+    margin-left: 20px;
+    width: 25%;
+    height: 500px;
+}
+
+.images .four img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 200px;
+}
+
+.images .four h2 {
+    font-family: 'Lobster', cursive;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.images .four p {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.images .four button {
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 30%;
+    margin-right: 305;
+}
+
+.images .four button:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.images .one:hover {
+    background-color: #eeeeee;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.images .two:hover {
+    background-color: #eeeeee;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.images .three:hover {
+    background-color: #eeeeee;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.images .four:hover {
+    background-color: #eeeeee;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #787878;
+    color: white;
+}
+
+footer .topcontent {
+    font-family: 'Lobster', cursive;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    padding: 40px;
+}
+
+footer .topcontent .info {
+    margin-left: 7%;
+}
+
+footer .topcontent .info h2 {
+    font-size: 35px;
+}
+
+footer .topcontent .info p {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+footer .topcontent .contact {
+    margin-left: 15%;
+}
+
+footer .topcontent .contact ul {
+    margin-top: 25px;
+}
+
+footer .topcontent .contact ul li {
+    list-style: none;
+}
+
+footer .topcontent .social {
+    margin-left: 15%;
+}
+
+footer .topcontent .social ul li {
+    list-style: none;
+}
+
+footer .topcontent .social ul {
+    margin-top: 25px;
+}
+
+footer .endnigga {
+    background-color: #303030;
+    padding-bottom: 20px;
+}
+
+footer #end {
+    font-weight: bolder;
+    margin-top: 70px;
+}
+
+#aboutusfooterbug {
+    margin-top: 40%;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.thumb {
+    display: inline;
+    max-height: 200px;
+}
+
+#thumblist {
+    text-align: center;
+    border-radius: 8px;
+    padding: 0;
+    background: rgba(127, 127, 127, 0.8);
+}
+
+#thumblist img {
+    border-radius: 8px;
+}
+
+.description {
+    color: white;
+    text-decoration: none;
+}
+
+
+/** relevant CSS Below **/
+
+.lightbox {
+    display: none;
+    /**sets the default display to hide the lightbox until it's the :target**/
+    position: fixed;
+    /**the rest of this styling makes the lightbox full screen when selected**/
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+    /**sets the styling of the image in the lightbox**/
+    max-width: 80%;
+    max-height: 90%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.lightbox:target {
+    /**this is where the magic happens. makes the lightbox display when it's the target of a clickable link**/
+    outline: none;
+    display: block;
+}
+
+.previous {
+    /**styling the left arrow**/
+    position: fixed;
+    left: 4px;
+    top: 40%;
+    width: 40px;
+}
+
+.exit {
+    /**styling the exit button**/
+    position: fixed;
+    top: 4px;
+    right: 4px;
+    width: 40px;
+}
+
+.next {
+    /**styling the right arrow**/
+    position: fixed;
+    right: 4px;
+    top: 40%;
+    width: 40px;
+}
+
+
+/*# sourceMappingURL=main.css.map */

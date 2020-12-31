@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seaside Hotel | Home</title>
+    <link rel="stylesheet" href="style/main.css">
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 300px;
+        }
+        
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+        
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>Seaside Hotel</h1>
+
+
+
+
+        </nav>
+    </header>
+
+    <div class="nav2">
+        <nav class="navtwo">
+            <div class="navthings">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="gallery.html" id="active">GALLERY</a></li>
+                    <li><a href="rooms.html">ROOMS</a></li>
+                    <li><a href="#">MULTIPLE HOTEL</a></li>
+                    <li><a href="registationform/RegistrationForm.html">REGISTATION</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="">
+            <img src="gallery images/imageone.jpeg" alt=" " width="700" height="500">
+        </a>
+        <div class="desc">Food</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href=".jpg">
+            <img src="gallery images/imagetwo.jpeg" alt="" width="700" height="500">
+        </a>
+        <div class="desc">Food</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href=".jpg">
+            <img src="gallery images/image3.jpeg" alt="" width="700" height="500">
+        </a>
+        <div class="desc">Food</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="">
+            <img src="gallery images/image4.jpeg" alt=" " width="700" height="500">
+        </a>
+        <div class="desc">Cafe</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="">
+            <img src="gallery images/image5.jpeg" alt=" " width="700" height="500">
+        </a>
+        <div class="desc">Cafe</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href=".jpg">
+            <img src="gallery images/image6.jpeg" alt="" width="700" height="500">
+        </a>
+        <div class="desc">Bed Rooms</div>
+    </div>
+
+
+
+
+
+
+
+
+    <br>
+    <br><br>
+
+
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br>
+
+    <footer>
+        <div class="topcontent">
+            <div class="info">
+                <h2> Sea Park Hotel</h2>
+                Sea side is established in 1998 by the group of owners. Now it's a leading seven star hotel in south Asia. Most of the foreign & local tourists prefer to spend their holidays in our hotel because of the attractive coast line. <br>We offer
+                the best friendly services for our beloved guests. Spend quality holidays with us.
+            </div>
+
+            <div class="contact">
+                <h2>contact us</h2>
+                <ul>
+                    <li>011-222-3333</li>
+                    <li>SeasideHotel@gmail.com</li>
+                    <li>27rd colombo</li>
+                </ul>
+            </div>
+            <div class="social">
+
+
+            </div>
+
+
+        </div>
+        <div class="endnigga">
+
+            <p id="end">
+                <center>Seaside hotel @2020</center>
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
