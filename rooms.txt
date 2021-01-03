@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SeasideHotel | Rooms</title>
+    <link rel="stylesheet" href="style/main.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: #f2f2f2;
+            overflow: auto;
+        }
+        
+        .gallery {
+            margin: 5px;
+            float: left;
+            width: 1220px;
+        }
+        
+        .gallery img {
+            width: 100% height: auto;
+        }
+        
+        .desc {
+            padding: 25px;
+            height: 90px;
+            text-align: center;
+        }
+        
+        footer {
+            margin-top: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Seaside Hotel</h1>
+
+
+        </nav>
+    </header>
+
+    <div class="nav2">
+        <nav class="navtwo">
+            <div class="navthings">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="rooms.html" id="active">ROOMS</a></li>
+                    <li><a href="#">MULTIPLE HOTEL</a></li>
+                    <li><a href="registationform/RegistrationForm.html">REGISTATION</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="container">
+        <div class="gallery">
+            <img src="https://cinnamonweb.blob.core.windows.net/cinnamonweb-prd/hotel_stay/grand-premium-room-1090X610.jpg" width="1200px" height="600px">
+            <div class="desc"><b>Superior Room </b>| Accomodation of the most indulgent kind awaits you at our Superior Rooms.Set in the Comfortable Wing you can relax in the comforts.
+            </div>
+
+            <div class="gallery">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max300/201567908.jpg?k=9c69c711b5c496ceafd0dc2e26db57d20a8732d2e22b3db89ff3f3b065c4f001&o=" width="1185px" height="600px">
+                <div class="desc"><b>Panoramic Room </b>| The Panoramic Rooms at Sea Side Hotel in Sri Lanka do live up to their name.
+                </div>
+
+                <div class="gallery">
+                    <img src="https://cf.bstatic.com/images/hotel/max1024x768/253/25314905.jpg" width="1179px" height="600px">
+                    <div class="desc"><b>Luxury Room </b>| When you choose a Luxury Room at one of the most beautiful hotels in Colombo,you will find all as it should be.
+                    </div>
+                    <div class="gallery">
+                        <img src="https://www.samanvilla.com/wp-content/uploads/2018/05/01.-SamanVilla.jpg" width="1173px" height="600px">
+                        <div class="desc"><b>Luxury Panoramic Room </b>|When you choose a Luxury Room at one of the most beautiful hotels in Colombo,you will find all as it should be.
+                        </div>
+                        <div class="gallery">
+                            <img src="https://www.colomboforthotels.com/the-palms-beruwala/images/rooms/deluxe-rooms/deluxe-rooms2.jpg" width="1166px" height="600px">
+                            <div class="desc"><b>Deluxe Room </b>| With expansive views.Hotel amenities in our Deluxe Rooms are of the most delightful kind.
+                            </div>
+                            <div class="gallery">
+                                <img src="https://cloudstorage.amari.com/property/galle-srilanka/hotel-photos/stay/one-bedroom-suite/one-bedroom-suite-1.jpg" width="1158px" height="600px">
+                                <div class="desc"><b>SUITE </b>| Wide views across the Beach side of Colombo,resort facilities of an exceptional kind and enough room for you to relax and complete ease-our suites are, indeed rather special.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="topcontent">
+            <div class="info">
+                <h2> Sea Park Hotel</h2>
+                Sea side is established in 1998 by the group of owners. Now it's a leading seven star hotel in south Asia. Most of the foreign & local tourists prefer to spend their holidays in our hotel because of the attractive coast line. <br>We offer
+                the best friendly services for our beloved guests. Spend quality holidays with us.
+            </div>
+
+            <div class="contact">
+                <h2>contact us</h2>
+                <ul>
+                    <li>011-222-3333</li>
+                    <li>SeasideHotel@gmail.com</li>
+                    <li>27rd colombo</li>
+                </ul>
+            </div>
+            <div class="social">
+
+            </div>
+
+
+        </div>
+        <div class="endnigga">
+
+            <p id="end">
+                <center>Seaside hotel @2020</center>
+            </p>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
